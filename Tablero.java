@@ -78,7 +78,8 @@ public class Tablero {
         }
         return count;
     }
-
+    
+    //retorna true si la posicion no exede los limites del tablero
     private boolean posicionValida(int fila, int columna) {
         return fila >= 0 && fila < filas && columna >= 0 && columna < col;
     }
