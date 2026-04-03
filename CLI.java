@@ -171,10 +171,12 @@ public class CLI {
 
     // muestra el tablero por consola
     public void showTablero(Tablero tablero) {
-        for (int i = 0; i < tablero.getFilas(); i++) {
+        char[][] matriz = tablero.getCopiaEstadosCeldas();
+
+        for (int i = 0; i < matriz.length; i++) {
             String fila = "";
-            for (int j = 0; j < tablero.getCol(); j++) {
-                fila += tablero.getCelda(i, j).getCaracter();
+            for (int j = 0; j < matriz[i].length; j++) {
+                fila += matriz[i][j] + " ";
             }
             this.showTexto(fila);
         }
