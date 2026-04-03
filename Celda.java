@@ -24,11 +24,11 @@ public class Celda {
         this.estadoActual = this.estadoNuevo;
         return huboCambio;
     }
-
+    //consulta si el estado actual se considera viva
     public boolean estaViva() {
         return this.estadoActual.esViva();
     }
-
+    //le pide el simbolo al estado actual
     public char getCaracter() {
         return this.estadoActual.getCaracter();
     }
