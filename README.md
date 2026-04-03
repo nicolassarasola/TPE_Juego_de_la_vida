@@ -2,6 +2,15 @@
         JUEGO DE LA VIDA
 ///////////////////////////////
 
+descargar y descomprimir el archivo
+
+
+usar su IDE de preferencia para ver dicho archivo
+
+
+ejecutar 
+
+
 El juego cuenta con tres formas de iniciarse
 
 ৹ aleatoria
@@ -30,7 +39,7 @@ El juego cuenta con tres formas de iniciarse
 
 si quisiera meter un estado nuevo debera llamar a un metodo llamado addEstadoNuevo(estadoNuevo).
 
-     ৹ por ejemplo en el codigo de la interfaz "CLI" se le llama para incluir a 2 estados nuevos "EstadoLatente" y "EstadoZombi".
+     ৹ por ejemplo en el codigo de la interfaz "CLI" se le llama para incluir a dos estados nuevos "EstadoLatente" y "EstadoZombi".
 
 
 
