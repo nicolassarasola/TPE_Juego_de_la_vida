@@ -98,7 +98,17 @@ public class Tablero {
         return this.col;
     }
 
-    public Celda getCelda(int fila, int col) {
-        return this.celdas[fila][col];
+    //devuelve una matriz de caracteres del estado del tablero
+    public char[][] getCopiaEstadosCeldas() {
+        char[][] copia = new char[filas][col];
+        
+        for (int i = 0; i < filas; i++) {
+            for (int j = 0; j < col; j++) {
+                copia[i][j] = this.celdas[i][j].getCaracter();
+            }
+        }
+    
+        return copia;
     }
+
 }
