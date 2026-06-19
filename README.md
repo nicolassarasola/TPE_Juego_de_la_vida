@@ -1,3 +1,4 @@
+Este codigo fue realizado como projecto final de objetos en java
 ///////////////////////////////
         JUEGO DE LA VIDA
 ///////////////////////////////
