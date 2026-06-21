@@ -1,4 +1,4 @@
-Este codigo fue realizado como projecto final de objetos en java
+Este codigo fue realizado como proyecto final de objetos en java
 
 
 ///////////////////////////////
